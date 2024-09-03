@@ -370,7 +370,7 @@ if (menu.style.display === 'block') {
 // pdf download script
         document.getElementById('downloadBtn').addEventListener('click', function() {
             // URL of the PDF file
-            const pdfUrl = 'resume.pdf';  // Replace with the actual path to your PDF
+            const pdfUrl = 'https://vaibranhari.github.io/portfolio/Hari_Business_Analyst.pdf';  // Replace with the actual path to your PDF
 
             // Fetch the PDF file from the URL
             fetch(pdfUrl)
@@ -387,7 +387,7 @@ if (menu.style.display === 'block') {
                     // Create a temporary link element
                     const link = document.createElement('a');
                     link.href = blobUrl;
-                    link.download = 'resume.pdf';  // You can change the name of the file
+                    link.download = 'Hari_Business_Analyst.pdf';  // You can change the name of the file
 
                     // Append the link to the body (required for Firefox)
                     document.body.appendChild(link);
