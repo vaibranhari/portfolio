@@ -541,4 +541,7 @@ font-size: 15px;
 .about-exp-head-txt-1{
     font-size: 31px;
 }
+    .project-inside-text{
+        font-size: 1em;
+    }
 }
